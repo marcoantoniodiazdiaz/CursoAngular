@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let item of Personas">{{ item }}</li>
+</ul>
+
+<button (click)="mostrarOcultar()">Mostrar/Ocultar</button>
+<br />
+<span style="font-size: 300%;" *ngIf="Mostrar">HOLA!</span>
